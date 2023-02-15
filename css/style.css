@@ -1,5 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
 body{
     font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 65;
+}
+
+.logo-img{
+    height: 60px;
+}
+
+#right-header{
+    display: flex;
+    align-items: center;
+}
+
+.info-button{
+    margin: 3px;
+    border: 3px solid orange;
+    font-size: 16px;
+    border-radius: 9px;
+    width: 81px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+  .info-button:hover {
+    opacity: 0.5;
+    background-color: yellow;
+  }
+
+#name-photo-section{
+    height: 150px;
+}
+
+  #photo{
+    background-image: url("../img/285873650_5331405973588133_8556591233093212374_n.jpg");
 }
